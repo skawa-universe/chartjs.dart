@@ -5,3 +5,7 @@
 typedef R Func0<R>();
 typedef R Func1<A, R>(A a);
 typedef R Func1Opt1<A, R>([A a]);
+typedef R Func3<A, B, C, R>(A a, B b, C c);
+
+typedef void VoidFunc1<A>(A a);
+typedef void VoidFunc2<A, B>(A a, B b);
