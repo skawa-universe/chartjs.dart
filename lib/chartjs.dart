@@ -23,7 +23,7 @@ import 'src/func.dart';
 /// Dan Manastireanu <https://github.com/danmana>
 /// Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 /// TypeScript Version: 2.3
-@JS('exposedClasses.Chart')
+@JS()
 class Chart {
   // @Ignore
   Chart.fakeConstructor$();
