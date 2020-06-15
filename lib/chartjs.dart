@@ -25,9 +25,6 @@ import 'src/func.dart';
 /// TypeScript Version: 2.3
 @JS('exposedClasses.Chart')
 class Chart {
-  // @Ignore
-  Chart.fakeConstructor$();
-
   //external static dynamic get Chart;
   //external static set Chart(dynamic v);
   external factory Chart(
@@ -117,9 +114,6 @@ class Chart {
 
 @JS()
 class PluginServiceStatic {
-  // @Ignore
-  PluginServiceStatic.fakeConstructor$();
-
   external void register([PluginServiceRegistrationOptions plugin]);
 }
 
