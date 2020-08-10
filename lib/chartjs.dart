@@ -26,7 +26,7 @@ import 'src/func.dart';
 @JS()
 class Chart {
   // @Ignore
-  Chart.fakeConstructor$();
+  external Chart.fakeConstructor$();
 
   //external static dynamic get Chart;
   //external static set Chart(dynamic v);
@@ -118,7 +118,7 @@ class Chart {
 @JS()
 class PluginServiceStatic {
   // @Ignore
-  PluginServiceStatic.fakeConstructor$();
+  external PluginServiceStatic.fakeConstructor$();
 
   external void register([PluginServiceRegistrationOptions plugin]);
 }
